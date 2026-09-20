@@ -7,3 +7,6 @@
 
 .heading>p{font-size:16px}.dropzone>p{font-size:14px}.primary{font-size:14px}.benefits strong{font-size:14px}.help-button{font-size:14px}.text-button{font-size:14px}.quality-option strong{font-size:14px}.quality-option small{font-size:13px}.file-details strong{font-size:14px}.page-footer{font-size:12px}
 @media(max-width:650px){.nav-item{flex-direction:column;gap:6px}.nav-item strong{font-size:13px}.dropzone>p{font-size:14px}.heading>p{font-size:15px}.benefits p{display:block;margin-left:0}.quality-option strong{font-size:14px}.quality-option small{font-size:12px}.password-field input{font-size:14px}.setting-row select,.setting-row input{font-size:14px}.steps{gap:7px}.steps li{font-size:12px}.page-footer{font-size:12px}}
+
+/* Readable secondary text across the light workspace. */
+.heading>p,.dropzone>p,.file-limit,.workspace-footer,.file-details>span,.setting-note,.password-section>p,.quality-option small,.result-filename,.result-note,.result-stats small,.benefits p,.page-footer,.demo-row,.nav-item small,.sidebar-label,.help-button{color:#68776c}

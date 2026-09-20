@@ -26,7 +26,7 @@ test('A protected PDF can be unlocked and downloaded through the UI', async ({ p
 test('Mobile layout and resize flow', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/');
-  await page.getByRole('button', { name: 'Resize pages Find the perfect fit' }).click();
+  await page.getByRole('button', { name: /^Resize pages/ }).click();
   await page.getByRole('button', { name: 'Try a sample PDF' }).click();
   await page.getByLabel('Paper size').selectOption('custom');
   await page.getByLabel('Width (mm)').fill('0');
