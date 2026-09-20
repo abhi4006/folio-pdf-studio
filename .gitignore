@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+.sites-runtime/
+test-results/
+playwright-report/
+.env*
+!.env.example
+
+public/engine/qpdf.js
+public/engine/qpdf.wasm
+public/pdfjs/
